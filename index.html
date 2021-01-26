@@ -1,0 +1,187 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title> Unique Walls</title>
+<link rel="stylesheet" href="Css/main.css">
+
+</head >
+
+<header>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a class="active"href="index.html">Home</a></li>
+        <li><a href="products.html">About</a></li>
+        <li><a href="gallery.html">Pricing</a></li>
+        <li><a href="aboutus.html">Contact</a></li>
+      </ul>
+    </nav>
+    <img src="Images/UniqueWallsLogo.png" alt="Nature" width="100" height="100" alignment="Center">
+  </div>
+</header>
+
+<div class="grad">
+
+</div>
+
+<br>
+<h1 style="font-size:300%; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Home Page</h1>
+<br>
+
+  <style>
+    body {
+      margin: 10px auto;
+      text-align: center;
+    }
+    .content {
+      max-width: 800px;
+      text-align: left;
+      margin: auto;
+    }
+    .simple-ss {
+      width: 1500px;
+      height: 600px;
+      background-color: #eeeeee;
+      background-size: 500%;
+      margin: auto;
+      background-image: url('Images/ImageLine.png');
+      animation-name: slide;
+      animation-duration: 10s;
+      animation-direction: normal;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+    }
+    @keyframes slide {
+      0% {
+        background-position: 0 0;
+      }
+      16.66% {
+        background-position: 0 0;
+      }
+      33.32% {
+        background-position: -800px 0;
+      }
+      49.98% {
+        background-position: -800px 0;
+      }
+      66.64% {
+        background-position: -1600px 0;
+      }
+      83.30% {
+        background-position: -1600px 0;
+      }
+      100% {
+        background-position: 0 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="simple-ss"></div>
+  <div class="content">
+</div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p2>Check out our Items!</p2>
+<br>
+<br>
+<br>
+
+<div class="w3-container">
+</div>
+
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="Images/BoxLine2.jpg" style="width:70%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    Box
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="Images/BoxLine5.jpg" style="width:70%">
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    Box
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="Images/BoxLine6.jpg" style="width:70%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    Box
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="Images/BoxLine7.jpg" style="width:70%">
+  <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+    Box
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="Images/BoxLine8.jpg" style="width:70%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    Box
+  </div>
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<div class="box">
+ 
+  <br>    
+  
+  <p3>Tel - 07977 923982</p3>
+  <br>
+  <br>
+
+  <p3>Email - uniquewalls@hotmail.co.uk</p3>
+  
+  <br>
+  
+  <p>
+      Check out our Facebook Page <a href="https://www.facebook.com/uniquewallsuk/">
+      <img border="2" alt="FacebookLogo" src="Images/FacebookLogo.png" width="50" height="50">
+      </a>
+  </p>
+  
+  <p>
+      Check out our Twitter <a href="https://twitter.com/JayUniquewalls">
+      <img border="2" alt="TwitterLogo" src="Images/TwitterLogo.png" width="50" height="50">
+      </a>
+  </p>
+  </div>
+
+</html>
